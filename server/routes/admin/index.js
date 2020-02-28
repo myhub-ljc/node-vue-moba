@@ -21,7 +21,7 @@ module.exports = app => {
   })
 
   router.get('/categories', async(req, res) => {
-    const items = await Categories.find().limit(10)
+    const items = await Categories.find().populate('parent').limit(10)
     res.send(items)
   })
 

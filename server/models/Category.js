@@ -4,7 +4,10 @@ const schema = new mongoose.Schema({
   name: {
     type: String,
     required: true
+  },
+  parent: {
+    type: mongoose.SchemaTypes.ObjectId, ref: 'Category'
   }
 })
 
-module.exports = mongoose.model('category', schema)
+module.exports = mongoose.model('Category', schema)
