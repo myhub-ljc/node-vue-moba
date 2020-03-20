@@ -1,12 +1,12 @@
 # node-vue-moba
 node.js+vue.js(express+elementUI)全栈开发王者荣耀手机端官网和管理后台
 
-##一.入门
+一.入门
 1,项目介绍
 2,工具安装和环境搭建(node, npm, mongodb)
 3,初始化项目
 
-##二.管理后台
+二.管理后台
 1,基于Element UI的后台基础界面搭建
 2,创建分类
 3,分类列表
@@ -24,3 +24,14 @@ node.js+vue.js(express+elementUI)全栈开发王者荣耀手机端官网和管�
 6,技能的编辑
 
 7,文章管理
+8,富文本编辑器
+9,首页广告管理
+10,管理员账号管理
+11,登陆页面
+12,登陆接口(jwt,jsonwebtoken)
+13,服务器登陆效验
+14,客户端路由限制(beforeEach, meta)
+
+
+
+

@@ -58,7 +58,7 @@ export default {
     },
 
   async fetch(){
-    const res = await this.$http.get(`rest/categories/${this.id}`)
+    const res = await this.$http.get(`rest/items/${this.id}`)
     this.model = res.data
   }
 },
