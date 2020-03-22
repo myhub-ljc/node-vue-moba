@@ -32,6 +32,11 @@ node.js+vue.js(express+elementUI)全栈开发王者荣耀手机端官网和管�
 13,服务器登陆效验
 14,客户端路由限制(beforeEach, meta)
 
+三，移动端网站
+ 1，开发服务器接口
+ 2，考虑整体样式
+ 3，使用字体图标(iconfont)
+
 
 
 
