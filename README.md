@@ -33,17 +33,24 @@ node.js+vue.js(express+elementUI)全栈开发王者荣耀手机端官网和管�
 14,客户端路由限制(beforeEach, meta)
 
 三，移动端网站
- 1，开发服务器接口
- 2，考虑整体样式
+  "工具样式"概念和SASS(scss)npm i -D sass sass-loader
+  样式重置
+  网站色彩和字体定义(color,text)
+  通用flex布局样式定义(flex)
+  常用边距定义
+  首页顶部轮播图
  3，使用字体图标(iconfont)
- 4，首页顶部轮播图片(swipper)
- 5，考虑通用组件(SFC)
- 6，卡片组件
+ 4，使用精灵图片(sprite)
+ 5，卡片组件
+ 6，列表卡片组件
  7，菜单组件(tab+swipper)
  8，首页新闻资讯
  9，新闻详情页
  10,首页英雄列表
  11,英雄详情页
+
+ ##四，发布和部署(阿里云)
+ 1，生产环境编译
 
 
 
