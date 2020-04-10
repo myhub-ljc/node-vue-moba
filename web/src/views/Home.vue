@@ -45,6 +45,54 @@
         <div>二手交易市场</div>
       </div>
     </div>
+    <div class="shouQi bg-light py-2 fs-sm jc-center">
+      <img class="mr-1" src="http://r.photo.store.qq.com/psc?/V10dFOfT2Jfiu7/OErzpq5D9LJxW5knQIpOPpBeeixnP2Je4IvZysuh5kHGJAzFwPA2AYHOyLivas3HjQ6sFQjBNKEUxMLPU6956sr6NnbdPC5EdadDwtYqMZI!/r" alt="">
+      <span>收起</span>
+    </div>
+    <!--end of nav icon-->
+    
+    <m-card icon="cc-menu-circle" title="新闻资讯">
+      <div class="card-body">
+        <div class="nav jc-between">
+          <div class="nav-item active">
+            <div class="nav-link">热门</div>
+          </div>
+          <div class="nav-item">
+            <div class="nav-link">新闻</div>
+          </div>
+          <div class="nav-item">
+            <div class="nav-link">公告</div>
+          </div>
+          <div class="nav-item">
+            <div class="nav-link">活动</div>
+          </div>
+          <div class="nav-item">
+            <div class="nav-link">赛事</div>
+          </div>
+        </div>
+        <div class="pt-3">
+          <swiper>
+            <swiper-slide v-for="m in 5" :key="m">
+                <div class="py-2 d-flex jc-around" v-for="n in 5" :key="n" >
+                  <span>[新闻] |</span>
+                  <span>新闻事件1</span>
+                  <span>04/10</span>
+                 </div>
+            </swiper-slide>
+          </swiper>
+        </div>
+      </div>
+    </m-card>
+
+    <p>aaaa</p>
+    <p>aaaa</p>
+    <p>aaaa</p>
+    <p>aaaa</p>
+    <p>aaaa</p>
+    <p>aaaa</p>
+    <p>aaaa</p>
+    <p>aaaa</p>
+    <p>aaaa</p>
   </div>
 </template>
 
@@ -81,9 +129,15 @@ export default {
   .nav-item {
     width: 33%;
     img {
-      width: 60px;
-      height: 60px;
+      width: 4.6154rem;
+      height: 4.6154rem;
     }
+  }
+}
+.shouQi {
+  img {
+    width: 0.7692rem;
+    height: 0.7692rem;
   }
 }
 </style>

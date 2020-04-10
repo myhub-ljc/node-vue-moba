@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1586509239678'); /* IE9 */
+  src: url('iconfont.eot?t=1586509239678#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPMAAsAAAAACCAAAAN9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqDVIMiATYCJAMQCwoABCAFhG0HTRsZB8gusG3YE9hWImBhSkkJ4Jg/IHj+Xcu/L8lQpsT0AVABWlIty8+kgGXlgjHl43eNnP+bK/8eEM4BoCJUiNmf3GzwTSbH1FaeLMlVVQDoiCWhLkHeDj9dEZPUbCZoQShJUUT6RSv9P8dMF4UbWH6bzSUrcLQ3wFG0DijjqukoRe6AJsi3wM4h/E7A7RBgVZGLbTR1dIMXQ1klQA6VJsArpGVyCoVPuCkHA7m48/ND9QiA5/bfy4di8QLFKSgbT65GO9S8C2lxXY6WGTYR8NozA9Ix0KADwEB2qvUaVzfagSv7OY+bIQCfTyHVl7qXlv8R8uci9dV/eaAIDako+RkABkiiV4ynM6CQYoAgLWMn0Wa5D7LBM4A4YSvSHYbb/JSMHNcID1ugmq7ubyBh5Tnh8VPC8hPRrCY6657z3ObmhY2NSxmP3q28D/0fv11+c1ZGviMV+x/86FzAaqzC7Wh8MPBsstr9WOKB7VyP6/u/TU/WClpcQ35tDp++X+g8WeAy6LPZF65Jdjn+OLmSeBS76vMR8WcnRIeHTu5eXqk7ucosi+WJTpNs5Y9cKnX/dsKpP340TpVlav64+mJtsbBkpvC5fRT22PLI47BHweE38cjmC+2jF1hOyZl8B1zkms63P6Do5f+xnofnJPvyT+puWvFFq/fvrpxrV4offT3juEw/Pt9b53+w1+MQZC/VxJZUlJSj/1NZjY+HOpCWq9PBAEBEX3Mt5eX1hs4HAN1t127qIsZv3y4cC5z454db1bRzpvcseSIG6vHuDK807xbyStaYr0DRmXgLde7PZ+xyj9YpYFkQgTOPd23IC0vng/AV+qB4KkHzNSANtgMcoQFw+abBaqf5eCgfxpVEALSxBSByOAVKliRoOTxGGuxbcBTxDVw54grW+ZR/yVCTUJ89DCc42snkHKGCromagfs4hZ0oWcoECwpsci8ykwZIUX5hNNGMGrI2tpjTUjHnIhGZrpImuBsqik4MpjtQ4PlTnBvVBQVi2jvlC7oKPvZg0AQO2REmzSFQAp1GNBtzPrHf74QkFsUEllP1w9wLMSY6PqGIfApLIJulWqmqY3mLaZqkGI4TEUSMTkVoAjNS1KiOYKTPc0ACLp+pGmFDNQVUTywrze9frh7hLsBSnm6SEi1GHLKmkKeiZuUJlAkKetxBpsuW93pWUMOkZjEAAAAA') format('woff2'),
+  url('iconfont.woff?t=1586509239678') format('woff'),
+  url('iconfont.ttf?t=1586509239678') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1586509239678#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cc-menu-circle:before {
+  content: "\e672";
+}
+
+.icon-heroku:before {
+  content: "\e657";
+}
+
+.icon-ellipsis2:before {
+  content: "\e701";
+}
+
